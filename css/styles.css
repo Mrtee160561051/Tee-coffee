@@ -283,7 +283,7 @@ margin-top:0;
 margin-bottom:0;
 padding-bottom:40px;}
 .Container_review{display: flex;
-    flex-flow:row wrap;
+    flex-flow:row;
     column-gap: 24px; row-gap: 10px;
     margin-top:50px;}
 .review2,.review3{padding:28px 22px 12px;}
@@ -474,5 +474,11 @@ footer a:hover{color:rgba(97, 95, 95, 0.584);}
     left:-5;
     bottom:-5px;
     transition: width 0.2s ease;
+    }
+}
+    @media screen and (max-width:820px){
+    .Container_review{display: flex;
+        flex-flow:row wrap;
+        row-gap: 3em;
     }
 }
